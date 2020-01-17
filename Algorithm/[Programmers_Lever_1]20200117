@@ -1,0 +1,46 @@
+#include <string>
+#include <vector>
+#include <iostream>
+#include <map>
+
+using namespace std;
+
+int getMax(int a, int b);
+
+vector<int> solution(vector<int> answers) {
+    vector<int> answer;
+    vector<int> score(3);
+    int max = 0;
+    
+    vector<int> player3{3,3,1,1,2,2,4,4,5,5};
+    vector<int> player1{1,2,3,4,5};
+    vector<int> player2{2,1,2,3,2,4,2,5};    
+    
+    int size = answers.size();
+    
+    for(int i = 0; i < size; i++){
+        // player 1
+        if(player1[i%5] == answers[i]){
+            score[0]++;
+        }
+        if(player2[i%8] == answers[i]){
+            score[1]++;
+        }
+        // player 3
+        if(player3[i%10] == answers[i]){
+            score[2]++;
+        }
+    }
+    
+    max = getMax(getMax(score[0], score[1]), score[2]);
+    
+    for(int i = 0; i < 3; i++){
+        if(score[i] == max) answer.push_back(i+1);
+    }
+
+    return answer;
+}
+
+int getMax(int a, int b){
+    return a < b ? b : a;
+}
