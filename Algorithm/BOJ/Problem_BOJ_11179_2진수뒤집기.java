@@ -2,7 +2,7 @@ package algo_study;
 
 import java.util.Scanner;
 
-public class Problem_BOJ_11179 {
+public class Problem_BOJ_11179_2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
