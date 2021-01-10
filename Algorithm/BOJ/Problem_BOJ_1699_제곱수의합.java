@@ -3,7 +3,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-public class Problem_BOJ_1699_Á¦°ö¼öÀÇÇÕ {
+
+public class Problem_BOJ_1699_ÃÂ¦Â°Ã¶Â¼Ã¶Ã€Ã‡Ã‡Ã• {
 
 	static int N;
 	static int ans;
