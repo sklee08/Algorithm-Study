@@ -3,7 +3,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Problem_BOJ_2293_µ¿Àü1 {
+public class Problem_BOJ_2293_ÂµÂ¿Ã€Ã¼1 {
+	
 	static int N, K;
 	static int ans;
 	static int[] coin;
