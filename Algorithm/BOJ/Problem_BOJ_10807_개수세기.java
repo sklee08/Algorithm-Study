@@ -1,7 +1,7 @@
 package algorithm_study;
 import java.util.Scanner;
 
-public class Problem_BOJ_10807 {
+public class Problem_BOJ_10807 { 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
