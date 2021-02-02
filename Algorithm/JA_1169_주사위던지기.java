@@ -4,7 +4,8 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class JA_1169_주사위던지기 {
-
+ 
+	
 	static int[] dices;
 	static int N;
 	
